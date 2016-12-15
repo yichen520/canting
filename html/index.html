@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+		<script src="../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="mui-content">
+		    <div id="slider" class="mui-slider" >
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../images/banner1.jpg">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/banner1.jpg">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/banner2.jpg">
+						</a>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/banner3.jpg">
+						</a>
+					</div>
+					
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../images/banner1.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			<img src="../images/logo2.png" width="100%" style="margin-top: -2px;">
+			<div class="mui-row">
+				<div class="mui-col-xs-6"><a href="about_us.html"><img width="100%" height="140px" src="../images/image1.png"</a></div>
+				<div class="mui-col-xs-6"><a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf7a3e563c5c1589c&redirect_uri=http%3A%2F%2Fsyl.vzzj.cn%2Fpengcu%2Findex.html&response_type=code&scope=snsapi_base&state=state&connect_redirect=1#wechat_redirect"><img height="140px" width="100%"  src="../images/image2.png"</a></div>
+			</div>
+			<div class="mui-row" style="margin-top: -5px;">
+				<div class="mui-col-xs-4"><a href="team.html"><img width="100%" height="140px" src="../images/logo3.png"</a></div>
+				<div class="mui-col-xs-4"><a href="company.html"><img width="100%" height="140px" src="../images/logo4.png"</a></div>
+				<div class="mui-col-xs-4"><a href="zhaopin.html"><img width="100%" height="140px" src="../images/logo5.png"</a></div>
+			</div>
+			<img src="../images/footer.jpg" width="100%" style="margin-top: -4px;margin-bottom: -4px;">
+		</div>
+		<script type="text/javascript">
+			mui("#slider").slider({
+				interval:1000
+			})
+		</script>
+	</body>
+</html>

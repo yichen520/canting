@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+.col-sm-10 .pic img{
+	width:100%;
+	height:100%;
+}
+
+
+
+/*登录页面*/
+.content {
+	margin:15% 0 15px 0;
+}
+
+.content p {
+	font-size: 30px;
+	color: #FFF;
+	margin-top: 12px;
+}
+.form{
+	width:80%;
+	margin: auto;
+}
+.login{
+	margin-top: 35px;
+}
+.loginbox{
+	border:solid 1px #104E8B;
+	width: 40%;margin: auto;
+	border-radius: 4px;
+	background:#1C1C1C;
+}
+
+
+/*主页面*/
+.container-fluid a{
+	color: #B8860B;
+}
+.col-sm-2{
+	height:650px;
+	border-right: black 2px solid;
+}
+.glyphicon{
+	color:#BDB76B;
+}
+
+.welcome{
+	margin:15% 0 0 35%;
+	font-size: 30px;
+}
+
+/*添加页面*/
+.addbox{
+	width: 80%;
+	margin: auto;
+}
+.addbox p{
+	font-size: 28px;
+	margin-bottom: 50px;
+}
+.pic{
+	width:150px;
+	height: 150px;
+	margin-bottom: 10px;
+	border:#ccc solid 1px;
+}
+
+.save{
+	margin-top: 40px;
+}
+.quxiao{
+	margin-left: 20px;
+}
+
+/*查看礼品信息*/
+td{
+	color:#708090;
+	text-align: center;
+	font-weight: bolder;
+}
+.title{
+	font-size: 25px;
+	font-weight: bolder;
+	color: #DAA520;
+}
+.disction div{
+	border-bottom:black solid 3px;
+	font-weight: bolder;
+	padding-bottom: 5px;
+}
+.red{
+	color:red;
+}
+
+.col-sm-10{
+	height:700px;
+}
+.col-sm-10 .row{
+	margin-bottom:0px;
+}
+.orderConten{
+	border-bottom:solid 1px #ccc;
+	height:100px;
+	padding-top:5px;
+}
+.bb{
+	margin-top:30px ;
+	color: red;
+}
+.aa{
+	position:relative;top:15px;
+}
+
+/*左侧导航菜单*/
+#myAccordion .panel-body a{
+	color:#5E5E5E;
+	margin-left:5px;
+}
+
+/*收货地址显示区*/
+.show_my_address{
+	display:none;
+	width:500px;height:400px;
+	margin:auto;
+	border:red solid #ADADAD;
+	background:#ADADAD;
+	position:fixed;
+	right:35%;top:25%;
+	z-index:50;
+	border-radius:5px;
+}
+.show_address_content{
+	width:480;height:390px;
+	margin:5px;
+	background:white;
+	border-radius:5px;
+	box-shadow:0px 0px 5px #F7F7F7;
+}
+
+.show_address_content .row-title{
+	width:100%;
+	padding-top:15px;
+	font-size:18px;
+	font-weight:bolder;
+}
+
+.show_address_content .row-title button{
+	margin-top:-15px;
+	border:0;
+	outline:none;
+}
+
+.show_address_content .row-body{
+	width:100%;margin-top:20px;
+	border-top:#ccc solid 1px;
+	padding:20px 40px;
+	font-size:20px;
+	
+}
+
+.show_address_content .row-body p{
+	line-height:40px;
+}
+
+.show_address_content .row-body div{
+	margin-top:20px;
+}
+
+.show_address_content .row-body .pull-left{
+	width:110px;
+}
+
+#username,#mobile,#address{
+	color:#D2691E;
+	font-size:16px;
+}
+
+#address{
+	width:300px;
+	line-height:40px;
+}
+
+
+.btn-group{
+	margin-bottom:20px;
+}

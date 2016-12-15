@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*鎵嬫満绔牱寮�*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%;overflow: hidden;-webkit-box-sizing: border-box; -moz-box-sizing:border-box; background:#e5e3dd; }
+.banner{display:block; with:100%; max-width:640px;}
+.banner img{display:block; with:100%;}
+.telnav {display:block; position:relative; width:100%; margin:3.5% 0 1%;
+  -moz-perspective:800px;/*灏嗗钩闈㈠浘褰㈣浆鎹负鍏锋湁閫忚鐨�3D鍥惧舰*/
+  -moz-transform-style:preserve-3d;/*transform-style: flat,鎵€鏈夊瓙鍏冪礌鍦� 2D 骞抽潰鍛堢幇 | preserve-3d,淇濈暀3D绌洪棿*/
+  -webkit-perspective:800px;
+  -webkit-transform-style:preserve-3d;
+  -moz-backface-visibility:;/*瀹氫箟褰撳厓绱犱笉闈㈠悜灞忓箷鏃舵槸鍚﹀彲瑙�,濡傛灉鍦ㄦ棆杞厓绱犱笉甯屾湜鐪嬪埌鍏惰儗闈㈡椂锛岃灞炴€у緢鏈夌敤*/
+  -webkit-backface-visibility:hidden;/*visible鑳岄潰鏄彲瑙佺殑,hidden鑳岄潰鏄笉鍙鐨勩€�*/
+  }
+.telnav li{display:block;float:left; position:relative;  color:#000; background:#fff; width:45.6%; margin:0% 0 2.5% 3.1%; border-radius:10px; text-align:center;
+  -webkit-animation-name:wobble;/*鍔ㄧ敾鍚嶇О锛岄渶瑕佽窡@keyframes瀹氫箟鐨勫悕绉颁竴鑷�*/
+  -webkit-animation-duration: 1s;/*琛ㄧず鍔ㄧ敾鎸佺画鐨勬椂闂�,濡傛灉娌℃湁璁剧疆duration鐨勮瘽锛屽垯琛ㄧず涓烘棤绌峰ぇ*/
+  -webkit-animation-timing-function: linear;/*琛ㄧず鍔ㄧ敾浣跨敤鐨勬椂闂存洸绾�*/
+  -webkit-animation-delay: 0;/*琛ㄧず寮€濮嬪姩鐢讳箣鍓嶇殑寤舵椂*/
+  -webkit-animation-iteration-count: 1;/*鎾斁1鏁帮紝infinite;鎾斁鏃犻檺娆℃暟*/
+  -webkit-animation-direction: ;/*琛ㄧず鍔ㄧ敾鐨勬柟鍚�*/
+  -moz-animation-name:wobble;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-delay: 0;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: ;	
+}
+@-webkit-keyframes wobble{
+  0% {-webkit-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-webkit-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-webkit-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-webkit-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-webkit-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }
+@-moz-keyframes wobble{
+  0% {-moz-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-moz-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-moz-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-moz-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-moz-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }
+.telnav li span{display:block;float:left;  position:relative; width:100%;font-size:1.6em; text-align:center; padding:1.5% 0% 2% 0%; }
+.telnav li p{display:block;float:left;  position:relative; color:#a0a0a0; width:86%; min-height:32px;font-size:1.3em; text-align:center; padding:0% 0% 6% 7%; }
+.icon_w{display:block;width:100px; height:100px; border:1px solid #afafaf;border-radius:100px;margin:12% auto 2%;overflow:hidden;}
+.icon {display:block;width:96px; height:96px;/*padding:5% 0%; */  padding:0%;border-radius:100px;border:2px solid #fff;background:#f2f9f8; overflow:hidden; }
+.icon img {display:block; width:100%; min-height:100%; vertical-align:middle;border-radius:100px; overflow:hidden;}
+footer {display:block;width:100%;line-height:30px; background:#1f1f1f; color:#fff; font-size:1.4em; text-align:center;}
+
